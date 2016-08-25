@@ -6,16 +6,16 @@ public class DebugThree2
       int a = 2, b = 5, c = 10;
       add(a, b);
       add(b, c);
-      subtract(c, a);            
+      subtract(c, a);
    }
-   public static void add()
+   private static void add()
    {
       System.out.println("The sum of " + a +
-         and + b + is + a + b);
+         "and" + b + "is" + a + b);
    }
-   public void subtract()
+   private void subtract()
    {
       System.out.println("The difference between " +
-        a + and + b + is + a - b);
+        a + "and" + b + "is" + a - b);
    }
 }

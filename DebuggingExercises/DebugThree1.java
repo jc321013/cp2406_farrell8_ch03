@@ -6,13 +6,13 @@ public class DebugThree1
       double myCheck = 50.00;
       double yourCheck = 19.95;
       System.out.println("Tips are");
-      calcTip(mycheck);
-      calctip(yourCheck);
+      calcTip((int) myCheck);
+      calcTip((int) yourCheck);
     }
-    public static int calcTip(int bill)
-    {
-      final double RATE = 0.15;
-      tip = bill + RATE;
-      System.out.println("The tip should be at least " + tip);
+    private static void calcTip(int bill) {
+        final double RATE = 0.15;
+        double tip = bill + RATE;
+        System.out.println("The tip should be at least " + tip);
     }
+
 }
