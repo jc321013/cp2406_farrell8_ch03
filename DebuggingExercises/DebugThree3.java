@@ -16,7 +16,7 @@ public class DebugThree3
       name = input.nextInt();
       return name;
    }
-   public static void displayGreeting()
+   private static void displayGreeting()
    {
       System.out.println("Hello, " + name + "!");
    }
