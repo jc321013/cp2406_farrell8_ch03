@@ -4,9 +4,8 @@ public class DebugThree3
 {
    public static void main(String args[])
    {
-      String name;
       getName();
-      displayGreeting(name);
+      displayGreeting(null);
    }
    private static int getName()
    {
@@ -16,7 +15,7 @@ public class DebugThree3
       name = input.nextInt();
       return name;
    }
-   private static void displayGreeting()
+   private static void displayGreeting(String name)
    {
       System.out.println("Hello, " + name + "!");
    }
